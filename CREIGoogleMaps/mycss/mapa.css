@@ -1,0 +1,302 @@
+.capaMapa{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 70px;
+}
+.mapa{
+    width: 60%;
+    height: 100%;
+    float: left;
+    background: green;
+}
+.info{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background: #CCC;
+}
+.botonverde{
+    background:	#99CC66	;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #fff;
+    padding: 10px; /* Espacio interior, para que respire el texto */
+    margin-left: -2%; 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.botonverde:hover{
+    background-color: #66CC33;
+    cursor: pointer;
+}
+.botonrojo{
+    background:	#FF6633		;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #fff;
+    padding: 10px; /* Espacio interior, para que respire el texto */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.botonrojo:hover{
+    background-color: #FF3333;
+    cursor: pointer;
+}
+#acordeonMapa #item1{
+    border-top: solid 1px #ccc; /* para separar nuestros items */
+    cursor: pointer; /* para que aparesca la manita */
+    padding: 0 40px;
+    
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#acordeonMapa #item1:hover{
+    background-color: #ccc;
+}
+#acordeonMapa #item1 .indice{
+    padding: 20px 0;/* Pequeño espacio superior*/    
+}
+#acordeonMapa #item1 .despliegue{
+    display: none; /* Para ocultar la respuesta */
+    padding-bottom: 20px; 
+}
+#acordeonMapa #item2{
+    border-top: solid 1px #ccc; /* para separar nuestros items */
+    cursor: pointer; /* para que aparesca la manita */
+    padding: 0 40px;
+    
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#acordeonMapa #item2:hover{
+    background-color: #ccc;
+}
+#acordeonMapa #item2 .indice{
+    padding: 20px 0;/* Pequeño espacio superior*/    
+}
+#acordeonMapa #item2 .despliegue{
+    display: none; /* Para ocultar la respuesta */
+    padding-bottom: 20px; 
+}
+.acordeonActivado, .acordeonActivado:hover{
+    background-color: #a3e0ff !important;
+}
+.acordeonActivado .indice{
+    font-weight: bolder;
+}
+.mostrar{
+    display: block;
+}
+.ocultar{
+    display: none;
+}
+.campoEditable{
+    background: #eee;
+    border: 0; /* quitar el borde que tiene por defecto */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 70%;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.campoEditable:focus{
+    background: #fff;
+    outline: none; /* elimina el subrayado del campo que biene por default */
+    -webkit-box-shadow: 0 0 10px #24607f;
+    -moz-box-shadow: 0 0 10px #24607f;
+    -o-box-shadow: 0 0 10px #24607f;
+    box-shadow: 0 0 10px #24607f;
+}
+.campoNoEditable{
+    background: #eee;
+    border: 0; /* quitar el borde que tiene por defecto */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 70%;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.campoNoEditable:focus{
+    background: #eee;
+    border: 0; /* quitar el borde que tiene por defecto */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 70%;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.etiqueta{
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999999;
+}
+.cargando{
+      background-color: #f89406;
+}
+.cargaterminada{
+  background-color: #468847;
+}
+.cargafallo{
+  background-color: #FF3333;
+}
+.desde{
+    background:	#339900	;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #fff;
+    padding: 10px; /* Espacio interior, para que respire el texto */
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.hasta{
+    background:	#FF3300	;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #fff;
+    padding: 10px; /* Espacio interior, para que respire el texto */
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.campoDesde{
+    background: #eee;
+    border: 0; /* quitar el borde que tiene por defecto */
+    padding: 10px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.campoDesde:focus{
+    background: #fff;
+    outline: none; /* elimina el subrayado del campo que biene por default */
+    -webkit-box-shadow: 0 0 10px #fff;
+    -moz-box-shadow: 0 0 10px #fff;
+    -o-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+}
+.campoHasta{
+    background: #eee;
+    border: 0; /* quitar el borde que tiene por defecto */
+    padding: 10px;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: -5px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.campoHasta:focus{
+    background: #fff;
+    outline: none; /* elimina el subrayado del campo que biene por default */
+    -webkit-box-shadow: 0 0 10px #fff;
+    -moz-box-shadow: 0 0 10px #fff;
+    -o-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+}
+.tipoTrayecto{
+    background:	#6A5ACD	;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #fff;
+    margin: 10px;
+    margin-left: 0%;
+    padding: 10px; /* Espacio interior, para que respire el texto */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.enCoche{
+    background:	#993300	;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #FFF;
+    margin: 10px 0px 0 5px;
+    padding: 2px 5px 2px 2px;; /* Espacio interior, para que respire el texto */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.caminando{
+    background:	#993300	;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #FFF;
+    margin: 0 0px 0 5px;
+    padding: 2px 5px 2px 2px; /* Espacio interior, para que respire el texto */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.obtenerRuta{
+    background:	#F5DEB3	;
+    border: 0; /*Elimina los border que el navegador le agrega por defecto */
+    color: #000;
+    font-size: 20px;
+    margin-left: 0%;
+    width: 89%;
+    padding: 10px; /* Espacio interior, para que respire el texto */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.direccionesRuta{
+    background: #eee;
+    border: 0; /* quitar el borde que tiene por defecto */
+    padding: 10px;
+    margin-bottom: -15px;
+    width: 30%;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+.tiempoDistancia{
+    width: 100%;
+    background: #FF3300;
+    color: #000;
+    font: bolder;
+    padding-left: 20px;
+}
+.direccionesTexto{
+    width: 100%;
+    background: #fff;
+    color: #000;
+    font: bolder;
+}
