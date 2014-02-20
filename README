@@ -7,7 +7,7 @@ En el menú podremos visualizar, entre otros menus, "Mapa" y "Rutas".
 1.- La sección de "Mapa" se habilita sin API_KEY de GoogleMaps
 2.- La sección de "Rutas" se habilita con API_KEY de GoogleMaps
 
-Dentro de la cabecera "<head></head>" de nuestro archivo "index.php" podremos encontrar los links  "<script><script/>" que hacen referencia a cada mapa.
+Dentro de la cabecera "<head></head>" de nuestro archivo "index.html" podremos encontrar los links  "<script><script/>" que hacen referencia a cada mapa.
 
 No es posible utilizar los 2 al mismo tiempo. O utilizamos el mapa de la sección de "Mapa" o el de la sección de "Rutas".
 
