@@ -1,4 +1,4 @@
-Contiene un sitio de prueba en el cual se ha implementado el Mapa de Google por medio de la API de GoogleMaps
+La carpeta CREIGoogleMaps contiene un sitio web de prueba en el cual se ha implementado el Mapa de Google por medio de la API de GoogleMaps
 
 Este proyecto cuenta con 2 mapas de Google. Uno se utiliza con la API_KEY y el otro no requiere api.
 
@@ -10,3 +10,10 @@ En el menú podremos visualizar, entre otros menus, "Mapa" y "Rutas".
 Dentro de la cabecera "<head></head>" de nuestro archivo "index.php" podremos encontrar los links  "<script><script/>" que hacen referencia a cada mapa.
 
 No es posible utilizar los 2 al mismo tiempo. O utilizamos el mapa de la sección de "Mapa" o el de la sección de "Rutas".
+
+La sección de "Mapa" trabaja con Base de Datos:
+
+Nombre de la base de datos: mapa 
+Nombre de la tabla: mapas
+
+El sitio esta configurado de forma adaptativa (Responsive Web Desing) con JQuery, CSS y HTML5
